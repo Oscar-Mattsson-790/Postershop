@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  /* border: 2px solid black; */
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Roboto";
+  font-size: 60px;
+}
+
+h2 {
+  color: #fff;
+  margin: 20px;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+button {
+  background: #e83f57;
+  border-radius: 4px;
+  width: 139px;
+  height: 30px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  margin: 20px;
+}
+
+img {
+  width: 312px;
+  height: 312px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.profile-text {
+  color: #fff;
+  margin: 20px;
+}
+
+.img2 {
+  height: 100px;
+  width: 100px;
+}
+
+.img3 {
+  width: 484px;
+  height: 484px;
+}
+
+.container {
+  /* border: 2px solid black; */
+  background-color: #3de07e;
+  position: relative;
+  height: 100vh;
+  width: 80vw;
+}
+
+.header {
+  background-color: #3de07e;
+  height: 50%;
+  position: relative;
+}
+
+.navIcon {
+  /* border: 2px solid black; */
+  width: 28px;
+  height: 25px;
+  margin: 20px;
+}
+
+.ninjaHead {
+  /* border: 2px solid black; */
+  height: 190px;
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+}
+
+.main {
+  /* position: absolute; */
+  background-color: black;
+  border: 40px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  /* border: 2px solid red; */
+  width: 311px;
+  height: 543px;
+  left: 909px;
+  top: 1344px;
+  text-align: start;
+}
+
+.item2 {
+  /* border: 2px solid blue; */
+  text-align: start;
+  width: 484px;
+  height: 770px;
+  left: 736px;
+  top: 2624px;
+}
+
+.footer {
+  background: #333333;
+  height: 20%;
+  border: 30px solid #333333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.img-symbols {
+  height: 20px;
+  width: 20px;
+  margin: 0px;
+}
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 22px;
+}
+
+/* .socialMedia {
+  border: 2px solid red;
+} */
+
+/* .address {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .nav {
+  display: flex;
+  flex-direction: column;
+} */
+
+.nav-text {
+  color: #ffffff;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+}
